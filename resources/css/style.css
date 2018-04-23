@@ -1,7 +1,7 @@
 /** UNIVERSAL STYLES **/
 
 html {
-  font-family: 'Source Sans Pro', 'Calibri', 'Gill-Sans', 'open-Sans' sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
 
 }
@@ -12,12 +12,6 @@ html, body {
 
 
 /** FONT STYLES **/
-
-font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Calibri', sans-serif;
-font-family: 'Gill Sans', sans-serif;
-font-family: 'open Sans', sans-serif;
-
 
 p {
   font-size: 1rem;
@@ -109,6 +103,7 @@ nav {
 
 nav li {
   padding-right: 1rem;
+  font-weight: bold;
 }
 
 nav li:last-child {
@@ -176,6 +171,7 @@ nav li:last-child {
   color: #E7E1DB;
   text-align: center;
   font-weight: bold;
+  font-family:'source sans pro', sans-serif;
 }
 
 .button:hover {
@@ -305,6 +301,7 @@ nav li:last-child {
   padding-bottom: 2rem;
 }
 
+
 .main-titles {
   display: block;
   width: 100%;
@@ -351,7 +348,11 @@ nav li:last-child {
   padding: 0.5rem 0;
   background-color: #294C74;
   color: #E7E1DB;
+  font-weight: bold;
 }
+ .course-title:hover{
+   background-color: #F17633;
+ }
 
 .course-info h3 {
   padding-bottom: 1rem;
@@ -375,6 +376,7 @@ nav li:last-child {
   display: inline-block;
   float: left;
   margin-bottom: 1rem;
+  font-family: 'source sans pro', sans-serif;
 }
 
 #thesis video {
@@ -542,6 +544,9 @@ aside {
 #thesis-aside {
   padding-top: 0;
 }
+#thesis-aside p{
+  color:#E7E1DB;
+}
 
 @media only screen and (min-width: 761px) and (max-width: 955px) {
     aside {
@@ -634,6 +639,7 @@ footer {
   bottom: 0;
   padding: 1rem 1.5rem;
   margin-top: 1rem;
+  font-family: 'source sans pro', sans-serif;
 }
 
 #copyright {
