@@ -29,6 +29,9 @@ a {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+a:hover{
+  color:#294C74;
+}
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -281,6 +284,7 @@ nav li:last-child {
   width: 60%;
   height: auto;
   float: left;
+  font-family:'source sans pro', sans-serif;
 }
 
 #main img, #main h2, #main h6, #main p {
@@ -325,6 +329,7 @@ nav li:last-child {
   flex-direction: column;
   margin-bottom: 2rem;
   margin-right: 2rem;
+  font-family: 'source sans pro', sans-serif;
 }
 
 .courses-final-block {
@@ -344,6 +349,8 @@ nav li:last-child {
 
 .course-title {
   padding: 0.5rem 0;
+  background-color: #294C74;
+  color: #E7E1DB;
 }
 
 .course-info h3 {
@@ -494,6 +501,7 @@ aside {
 }
 
 .info-text {
+  font-family: 'source sans pro';
   display: inline-block;
   width: 55%;
 }
@@ -505,6 +513,10 @@ aside {
 
 .info-text p {
   padding-bottom: 1rem;
+}
+
+.info-text p a:hover{
+  color: #294C74;
 }
 
 .primary-background {
